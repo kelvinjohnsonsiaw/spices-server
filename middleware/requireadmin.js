@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-import { isAdminEmail } from "../utils/adminEmails.js";
+import { isAdminEmail } from "../utils/Adminemails.js";
 
 // Must run AFTER requireAuth (needs req.userId already set).
 // requireAuth confirms "this is a real logged-in user" — this confirms
